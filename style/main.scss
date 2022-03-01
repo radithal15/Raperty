@@ -1,0 +1,164 @@
+.navbar {
+  background-color: #0e0b22;
+
+  .navbar-brand {
+    .fa-home {
+      border-radius: 50%;
+      padding: 7px;
+    }
+
+    span {
+      color: #fff;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      padding-right: 30px;
+
+      .nav-link {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+.testimonial-content {
+  height: 250px;
+}
+
+.section-header {
+  padding: 50px 0 100px 0;
+  // margin-bottom: -100px;
+  background-color: #0e0b22;
+
+  h1 {
+    color: #fff;
+    font-family: "Red Hat Display";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  p {
+    color: #fff;
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 20px;
+  }
+
+  .btn-FindYourProperty {
+    background: #4081ff;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: 15px;
+  }
+
+  section-over {
+    margin-top: 170px;
+  }
+
+  .section-image {
+    .rectangle {
+      background-color: #fff !important;
+      width: 400px;
+      height: 300px;
+      z-index: 0;
+      border-radius: 10px;
+    }
+
+    img {
+      position: absolute;
+      z-index: 1;
+      margin-top: -280px;
+      margin-left: 20px;
+      width: 400px;
+      height: 300px;
+      border-radius: 10px;
+    }
+  }
+}
+
+.over10 {
+  font-size: 38px;
+}
+
+.top {
+  font-weight: regular;
+  font-size: 37px;
+}
+
+.bottom {
+  font-size: 22px;
+}
+
+.company {
+  font-size: 22px;
+  margin-top: 38px;
+  margin-bottom: 46px;
+}
+
+.our-property {
+  font-family: Red Hat Display;
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center !important;
+}
+
+.list {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.list-unstyled {
+  color: white;
+}
+
+footer {
+  background-color: #0e0b22;
+
+  span {
+    font-family: "Red Hat Display";
+    color: #fff;
+    font-size: 22px;
+  }
+
+  h5 {
+    font-family: "Red Hat Display";
+    color: #fff;
+  }
+
+  .link {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .container-fluid {
+    background-color: #fff;
+  }
+}
+
+.images-main {
+  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
+}
+
+.contact-us {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.list-contact {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px !important;
+}
